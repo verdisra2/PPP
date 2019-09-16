@@ -1,0 +1,22 @@
+h1{
+	text-align:center;
+	background-color:#D3D2D2;
+	line-height:200%;
+}
+
+th{
+	font-size:150%;
+	background-color:#D3D2D2;
+}
+
+td{
+	background-color:#E8E8E8;
+}
+
+#homeP{
+	font-size:120%;
+}
+
+a{
+	font-weight:bold;
+}
