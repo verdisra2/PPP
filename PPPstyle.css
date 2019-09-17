@@ -2,21 +2,70 @@ h1{
 	text-align:center;
 	background-color:#D3D2D2;
 	line-height:200%;
+	text-transform:capitalize;
+	border-style:solid;
+	border-color:BLACK;
+	box-shadow:5px 5px 5px gray;
+	background-clip: border-box;
+	display:inline-block;
+}
+
+body{
+	background-image:url("tan.jpg");
 }
 
 th{
 	font-size:150%;
 	background-color:#D3D2D2;
+	border-style:solid;
+	border-image: url(brown.jpg) 30 round;
 }
 
 td{
 	background-color:#E8E8E8;
+	border-style:solid;
+	border-color:BLACK;
+}
+
+form{
+	background-color:#D3D2D2;
+	line-height:200%;
+	border-style:solid;
+	border-color:BLACK;
+	border-radius:10px;
+	border-width:thin;
+	visibility:visable;
 }
 
 #homeP{
 	font-size:120%;
+	color:gray;
 }
 
 a{
 	font-weight:bold;
+}
+
+p{
+	text-overflow:ellipsis;
+	visibility:inherit;
+}
+
+h2{
+	background-image:linear-gradient(to right, white, gray);
+	display:inline;
+}
+
+img{
+	border-radius: 50%;
+	object-fit:cover;
+	transform:none;
+	filter:grayscale(100%);
+	display:block;
+	float:left;
+	clear:both;
+}
+
+h4{
+	display:none;
 }
